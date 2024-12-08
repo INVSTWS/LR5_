@@ -50,7 +50,7 @@ public class AdvancedCalc : OrdinaryCalc, IAdvanced
 }
 
 // Головний клас програми
-public class MainClass
+public class MainClass ///*
 {
     public static void Main(string[] args)
     {
