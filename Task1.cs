@@ -49,7 +49,7 @@ namespace SimpleCalculator
                     continue;
                 }
 
-                double num1, num2; ///it would be better to change the names of variables to firstNumber and SecondNumber
+                double num1, num2; 
                 Console.Write("Введіть перше число: ");
                 while (!double.TryParse(Console.ReadLine(), out num1))
                 {
