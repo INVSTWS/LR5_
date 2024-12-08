@@ -73,6 +73,7 @@ public class MainClass
         Console.WriteLine($"Обрано калькулятор: {calc.GetModel()}");
         
         // Вибір операції
+        ///Reorganize Console.WriteLine calls into a single block for menu options
         Console.WriteLine("Виберіть операцію:");
         Console.WriteLine("1. Додавання");
         Console.WriteLine("2. Віднімання");
